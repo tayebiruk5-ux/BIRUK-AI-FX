@@ -1,0 +1,12 @@
+export const INITIAL_BALANCE = 10000;
+export const MARKET_CATEGORIES = {
+  CRYPTO: ['BTC', 'ETH', 'SOL', 'DOT', 'ADA', 'AVAX', 'LINK', 'XRP', 'DOGE', 'SHIB'],
+  STOCKS: ['AAPL', 'TSLA', 'NVDA', 'MSFT', 'GOOGL', 'AMZN', 'META'],
+  FOREX: ['EUR/USD', 'GBP/USD', 'USD/JPY', 'AUD/USD', 'USD/CAD'],
+};
+export const SYMBOLS = [
+  ...MARKET_CATEGORIES.CRYPTO,
+  ...MARKET_CATEGORIES.STOCKS,
+  ...MARKET_CATEGORIES.FOREX
+];
+export const UPDATE_INTERVAL = 3000;
